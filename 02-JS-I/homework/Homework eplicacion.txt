@@ -1,0 +1,29 @@
+Variables:
+	Los variables son lugares de almacenamiento de datos. Estas pueden ser cambiantes (variables) o fijas(constantes). Cambiantes quiere decir que pueden cambiar los datos que almacenan despues de ser creadas. En cambio, las variables fijas, los datos solo pueden ser leidos una vez que han sido creadas.
+
+Strings:
+	Los strings son variables que almacenan un "Tipo" de dato especifico. Este tipo de dato es llamado "Cadena de caracteres".
+	Los caracteres son cada letra individual de las palabras, estando incluidos los signos y espacios.
+
+Funciones:
+	Las funciones son instrucciones con pasos a seguir. Estas acciones pueden ser sumar, restar, escribir, borrar, guardar, editar, etc...
+	Estas instrucciones reciben datos, llamados "argumentos", que son los que contienen los valores para realizar las acciones.
+	La forma de obtener los resultados de una funcion, es mediante la instruccion "return", la cual devuelve una respuesta a las instrucciones que se han pasado. La repuesta puede ser el resultado esperado o algun problema con las indicaciones.
+
+Declaraciones "if":
+	Las declaraciones "if" son funciones que tienen como paso previo a las intrucciones, la comparacion de parametros.
+	Por ejemplo:
+	Quieres comer una hamburguesa. Primero vas a ver en la heladera si hay. Si hay, las cocinas. Sino, debes ir a comprar.
+	En fomato pseudo-codigo seria:
+	Si (Hay Hamburguesas) entonces:
+		Cocinar Hamburguesas.
+	Sino
+		Ir a comprar hamburguesas.
+
+Valores booleanes:
+	Los valores "booleanos" son datos del tipo "Verdadero" o "Falso". Estos se usan en metodos de comparacion o como resultado de una funcion.
+	Siguiendo con el ejemplo anteriror, seria:
+	Si (HayHamburguesas = Verdadero) entonces:
+		Cocinar hamburguesas.
+	Sino [Si HayHamburguesas = Falso]
+		Ir a comprar hamburguesas.
