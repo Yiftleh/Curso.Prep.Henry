@@ -1,0 +1,11 @@
+For:
+	"For" se puede traducir como una funcion que sigue un orden de pasos de manera ordenada. Si lo vemos en profundidad, "For (i = x; i < y; i++)", posee tres condiciones.
+	"i" es una variable que cambia en cada conclucion de paso. Como primera instruccion, debemos darle a "i" que valor queremos que posea al iniciar la funcion.
+	"i < y" es la comparacion que debe cumplirce para continuar. Esta condicion puede ser "i < y", "i > y", "i == y", etc...
+	"i++" es la instruccion de debe pasar en la conclusion de cada paso. Podemos hacer que "i" incremente su valor por 1, 2, 3, etc. O que decresca su valor por una cantidad que decidamos. O que tome un valor que nosotros le pasemos.
+
+&&, ||, !:
+	Los comparadores "&&", "||" y "!" hacen mas compleja la instruccion de comparacion que deseemos hacer.
+	"&&" significa que dos o mas condiciones se deben cumplir para poder ejecutar el procedimiento que hemos declarado.
+	"||" es el comparador de "o". Esto quiere decir que al menos uno de los comparadores debe ser cierto.
+	"!" determina que el comparador ingresado no debe ser igual al dato de comparacion.
