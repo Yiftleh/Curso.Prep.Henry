@@ -1,0 +1,4 @@
+Arrays:
+	Los "Arrays" son variables que almacenan datos en ciertas posiciones especificas. Cada posicion puede almacenar letras, palabras, funciones, textos, etc...
+	Se puede acceder a cada elemento de los arrays llamandolos mediante NombreDeArray[x(posicion en numeros)]
+	Los arrays comienzan a contar desde el 0.
