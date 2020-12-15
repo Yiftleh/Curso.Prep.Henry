@@ -1,0 +1,22 @@
+Objetos:
+	Los objetos son parecidos a los arrys, ambos almacenan datos en posiciones especificas. Sin embargo, mientras que en los arrays debiamos llamar al contenido mediante ubicacion numerica, en los objetos podemos invocar sus elementos llamandolos por su "nombre".
+	Estos "nombres" se les llama propiedades.
+
+Propiedades:
+	Las propiedades son los datos guardados dentro de un objeto. Estas poseen "Nombre clave" y "Valor" ("Key"/"Value").
+	Por ejemplo:
+	Nombre: Gianfranco;
+	(Key): (Value);
+
+Metodos:
+	Los metodos son las funciones invocables de cada objeto. Estos pueden obtener datos, realizar procesos, devolver resultados y hacer varias o todas las anteriores.
+
+Bucle "for...in":
+	"for...in" es similar al "for" que vimos anteriormente. La diferencia radica en que mientras "for" analiza usando una variable numerica definida anteriormente, "for...in" revisa todos los metodos guardados en un objeto, uno por uno.
+	Al igual que "for", podemos realizar comparaciones, devoluciones (return) en cada paso y demas, en cada paso.
+
+[] vs .
+	La notacion es importante al llamar a metodos de los objetos. En lugar de llamar a la posicion especifica del objeto, llamamos al "valor" almacenado con un "nombre" especifico. Por ejemplo, tengo un objeto llamado "persona" y este tiene dentro de si un metodo llamado "nombre". Si yo quiere que se me devuelva solamente el nombre de "persona" en lugar de todos los datos almacenados en ella, pueden hacerlo llamando especificamente al metodo guardado con la palabra clave "nombre". Esto se realiza mediante:
+	persona.nombre();
+	O
+	persona['nombre()'];
